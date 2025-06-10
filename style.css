@@ -295,3 +295,38 @@ section {
         margin-bottom: 20px; /* Adiciona espaço entre cards empilhados */
     }
 }
+
+/* =============================================== */
+/* --- Estilos da Página de Projeto Groova --- */
+/* =============================================== */
+
+/* Hero Section (Banner do Projeto) */
+.project-hero {
+    /* ATENÇÃO: Substitua a imagem por uma relacionada ao seu projeto */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1516223725357-6db4e2984b24?w=1200');
+    background-size: cover;
+    background-position: center;
+    padding: 8rem 0;
+    color: #fff;
+    margin-top: 70px; /* Ajuste para não ficar atrás da navbar fixa */
+}
+
+/* Galeria de Imagens */
+.project-gallery .carousel-item img {
+    max-height: 550px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Ícones da Stack de Tecnologia */
+.tech-stack-icon {
+    font-size: 4rem;
+    color: #6c757d; /* Cor cinza secundária do Bootstrap */
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.tech-stack-icon:hover {
+    color: var(--bs-primary); /* Cor primária do Bootstrap ao passar o mouse */
+    transform: scale(1.1);
+}
+
