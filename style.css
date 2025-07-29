@@ -301,15 +301,14 @@ section {
 /* =============================================== */
 
 /* Hero Section (Banner do Projeto) */
-.project-hero {
-    /* ATENÇÃO: Substitua a imagem por uma relacionada ao seu projeto */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1516223725357-6db4e2984b24?w=1200');
-    background-size: cover;
-    background-position: center;
-    padding: 8rem 0;
+.project-hero-modern {
+    height: 60vh;
+    background:#201087; 
     color: #fff;
-    margin-top: 70px; /* Ajuste para não ficar atrás da navbar fixa */
+    padding: 0 20px;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
 }
+
 
 /* Galeria de Imagens */
 .project-gallery .carousel-item img {
